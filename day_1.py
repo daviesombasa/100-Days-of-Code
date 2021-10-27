@@ -1,7 +1,9 @@
 """
 #100 Days of Code Challange
 Day 1: Python Basics
-
+Note:
+    1. To execute a block of code use Alt + Shift + E on Pycharm IDE
+    2. \n - introduces a new line
 """
 # Declaring variables
 name = "wanderking"  # String
