@@ -82,3 +82,22 @@ if score >= 150 or score <= 200:  # or returns True if one values are true
 
 not score < 100  # not - negates the truth value
 
+#LOGICAL OPERATORS EXERCISE
+age = 21
+qualification = "Bachelors"
+experience = 2
+
+"""
+Let the variable "match" be a Logical variable. So, it takes a True or False.
+Write an if statement such that based on the following conditions the program should determine if the
+candidate can be considered for a job interview or not.
+
+The conditions are
+1. candidates with at least an age of 21 and
+2. a qualification of either "Bachelors" or "Masters"
+3. and at least an experience of 2 years.
+"""
+
+match = age >= 21 and (qualification == 'Bachelors' or 'Masters') and experience >= 2
+print(match)
+
