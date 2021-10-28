@@ -81,4 +81,3 @@ if score >= 150 or score <= 200:  # or returns True if one values are true
     print("Score is valid")
 
 not score < 100  # not - negates the truth value
-
