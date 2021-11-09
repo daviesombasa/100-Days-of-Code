@@ -76,4 +76,3 @@ set_1.difference(set_2)
 
 # Symmetric difference
 set_1.symmetric_difference(set_2)
-set_1.

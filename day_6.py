@@ -112,3 +112,14 @@ def alternate_odd(limit):
 
 
 alternate_odd(20)
+
+# Reverse a string
+def reverse(name):
+    new_name = ""
+    for letter in name:
+        letter = (len(name) - name.index(letter))
+        new_name += name[letter - 1]
+    return new_name
+
+
+reverse('vinicent')
